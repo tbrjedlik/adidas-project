@@ -1,4 +1,29 @@
-.navbar-nav{
+.navbar-nav
+{
     position: relative;
     margin: auto;
+}
+
+@font-face
+{
+    font-family: adidasRegular;
+    src: url(fonts/adidas-regular.otf);
+}
+
+@font-face
+{
+    font-family: adidasBold;
+    src: url(fonts/adidas-bold.otf);
+}
+
+@font-face
+{
+    font-family: adidasBoldItalic;
+    src: url(fonts/adidas-bolditalic.otf);
+}
+
+@font-face
+{
+    font-family: adidasItalic;
+    src: url(fonts/adidas-italic.otf);
 }
