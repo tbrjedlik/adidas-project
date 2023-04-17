@@ -27,3 +27,63 @@
     font-family: adidasItalic;
     src: url(fonts/adidas-italic.otf);
 }
+
+@font-face
+{
+    font-family: balenciagaRegular;
+    src: url(fonts/balenciaga.ttf);
+}
+
+@font-face
+{
+    font-family: balenciagaRegular;
+    src: url(fonts/balenciaga.ttf);
+}
+
+@font-face
+{
+    font-family: gucciRegular;
+    src: url(fonts/gucci.ttf);
+}
+
+@font-face
+{
+    font-family: yeezyRegular;
+    src: url(fonts/yeezy.ttf);
+}
+
+.adidas-font
+{
+    font-family: 'adidasBold';
+}
+
+.balenciaga-font
+{
+    font-family: 'balenciagaRegular';
+    text-transform: uppercase;
+    font-size: 120%;
+}
+
+.gucci-font
+{
+    font-family: 'gucciRegular';
+    text-transform: uppercase;
+    font-size: 120%;
+}
+
+.yeezy-font
+{
+    font-family: 'yeezyRegular';
+    text-transform: uppercase;
+    font-size: 120%;
+}
+
+.dropdown-item > .adidas-font
+{
+    font-size: 120%;
+}
+
+.navbar-brand
+{
+    font-size: 150%;
+}
