@@ -1,8 +1,44 @@
+/* NAVBAR */
+
 .navbar-nav
 {
     position: relative;
     margin: auto;
 }
+
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+
+.dropdown-menu
+{
+    margin-top: 0;
+}
+
+.navbar-brand
+{
+    font-size: 150%;
+}
+
+.nav-link
+{
+    text-transform: uppercase;
+}
+
+.nav-link.dropdown-toggle
+{
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+
+
+
+
+/* FONTS */
 
 @font-face
 {
@@ -81,9 +117,4 @@
 .dropdown-item > .adidas-font
 {
     font-size: 120%;
-}
-
-.navbar-brand
-{
-    font-size: 150%;
 }
