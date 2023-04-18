@@ -1,5 +1,10 @@
 /* NAVBAR */
 
+nav
+{
+    user-select: none;
+}
+
 .navbar-nav
 {
     position: relative;
@@ -29,9 +34,16 @@
 .nav-link.dropdown-toggle
 {
     cursor: pointer;
-    user-select: none;
 }
 
+a[target=#]
+{
+    font-weight: bold;
+    pointer-events: none;
+    text-decoration: none;
+    cursor: pointer;
+
+}
 
 
 
