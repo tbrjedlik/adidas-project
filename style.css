@@ -45,8 +45,9 @@ nav
 
 }
 
-
-
+.carousel-item {
+    height: 800px;
+}
 
 
 
