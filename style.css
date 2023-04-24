@@ -141,3 +141,7 @@ nav
 .gucci_font {
     font-family: 'Raleway', sans-serif;
 }
+
+.card li{
+    list-style-type: none;
+}
