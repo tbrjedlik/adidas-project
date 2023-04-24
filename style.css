@@ -1,3 +1,8 @@
+body
+{
+    overflow-x: hidden;
+}
+
 /* NAVBAR */
 
 nav
@@ -138,10 +143,12 @@ nav
     font-size: 120%;
 }
 
-.gucci_font {
+.gucci_font
+{
     font-family: 'Raleway', sans-serif;
 }
 
-.card li{
+.card li
+{
     list-style-type: none;
 }
