@@ -152,3 +152,21 @@ nav
 {
     list-style-type: none;
 }
+
+
+/* INDEX */
+
+.adiclub
+{
+    height: 100px;
+    background-color: rgb(255, 208, 0);
+}
+
+.adiclub p
+{
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-family: adidasBoldItalic;
+    text-align: center;
+    font-size: 250%;
+}
