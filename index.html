@@ -97,46 +97,106 @@
       <div class="row">
         <div class="col-md-9">
           <p>
-            Join our adiclub & get 15% off
+            Join our adiClub & get 15% off
           </p>
         </div>
         <div class="box-1 col-md-3">
-          <button class="button-27" role="button">Sign up for free!</button>
+          <button role="button" type="button" class="button-27" data-bs-toggle="modal" data-bs-target="#adiClubModal">Sign up for free!</button>
         </div>
       </div>
     </div>
-      
 
+    <!-- Modal -->
+    <div class="modal fade" id="adiClubModal" tabindex="-1" aria-labelledby="adiClubModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="adiClubModalLabel"><span style="text-transform: lowercase;">adi<span class="adi-club">club</span></span> Registration</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h1 class="adidas-font" style=
+            "font-size: 50px;
+            text-transform: uppercase;">
+              Your adiClub <br>benefits await
+            </h1>
+            <p style="">
+              Get free shipping, discount vouchers and members only products when you’re in adiClub.
+            </p>
+            <p class="form-text">
+              Log in or sign up (it’s free)
+            </p>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label adidas-font fs-5">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="jacobgipsz@email.com">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label adidas-font fs-5">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="••••••••">
+                <div id="emailHelp" class="form-text">Choose a strong password.</div>
+              </div>
+              <div class="row">
+                <div class="mb-3 col-sm-6">
+                  <label for="exampleInputPassword1" class="form-label adidas-font fs-5">FIRST NAME</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Jacob">
+                </div>
+                <div class="mb-3 col-sm-6">
+                  <label for="exampleInputPassword1" class="form-label adidas-font fs-5">LAST NAME</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Gipsz">
+                </div>
+              </div>
+              <p class="form-text">
+                Sign me up to adiClub, featuring exclusive adidas offers and news
+              </p>
+              <p style="font-size: 12px;" class="form-text">
+                By clicking the “Submit” button, you are joining adiClub, will receive emails with the latest news and updates, and agree to the <a target="_blank" href="https://www.adidas.com/us/help/us-company-information/what-are-the-terms-and-conditions" class="adiclub-link">TERMS OF USE</a> and <a target="_blank" href="https://www.adidas.com/us/help/us-adiclub/terms-and-conditions-adiclub" class="adiclub-link">ADICLUB TERMS AND CONDITIONS</a> and acknowledge you have read the <a target="_blank" href="https://www.adidas.com/us/help/us-company-information/what-is-the-privacy-policy" class="adiclub-link">ADIDAS PRIVACY POLICY</a>. If you are a California resident, the adiClub membership may be considered a financial incentive. Please see the Financial Incentives section of our <a target="_blank" href="https://www.adidas.com/us/help/us-company-information/privacy-notice-for-california-residents" class="adiclub-link">CALIFORNIA PRIVACY NOTICE</a> for details.
+              </p>
+            </form>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="button-27" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="button-27">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="index-text">
       <div class="container row mt-5 mx-auto">
         <div class="col-md-6">
-          <h1 class="">
+          <h1 class="px-1 underline-animation">
             Stories, style, and sporting goods at adidas, since 1949
           </h1>
-          <p>
-            Through sports, we have the power to change lives. Sports keep us fit. They keep us mindful. They bring us together. Athletes inspire us. They help us to get up and get moving. And sporting goods featuring the latest technologies help us beat our personal best. adidas is home to the runner, the basketball player, the soccer kid, the fitness enthusiast, the yogi. And even the weekend hiker looking to escape the city. The 3-Stripes are everywhere and anywhere. In sports. In music. On life’s stages. Before the whistle blows, during the race, and at the finish line. We’re here to support creators. To improve their game. To live their lives. And to change the world.
-          </p>
-          <p>
-            adidas is about more than sportswear and workout clothes. We partner with the best in the industry to co-create. This way we offer our fans the sporting goods, style and clothing that match the athletic needs, while keeping sustainability in mind. We’re here to support creators. Improve their game. Create change. And we think about the impact we have on our world.
-          </p>
+          <div class="px-3">
+            <p>
+              Through sports, we have the power to change lives. Sports keep us fit. They keep us mindful. They bring us together. Athletes inspire us. They help us to get up and get moving. And sporting goods featuring the latest technologies help us beat our personal best. adidas is home to the runner, the basketball player, the soccer kid, the fitness enthusiast, the yogi. And even the weekend hiker looking to escape the city. The 3-Stripes are everywhere and anywhere. In sports. In music. On life’s stages. Before the whistle blows, during the race, and at the finish line. We’re here to support creators. To improve their game. To live their lives. And to change the world.
+            </p>
+            <p>
+              adidas is about more than sportswear and workout clothes. We partner with the best in the industry to co-create. This way we offer our fans the sporting goods, style and clothing that match the athletic needs, while keeping sustainability in mind. We’re here to support creators. Improve their game. Create change. And we think about the impact we have on our world.
+            </p>
+          </div>
         </div>
         <div class="col-md-6">
-          <h1 class="">
+          <h1 class="px-1 underline-animation">
             Workout clothes, for any sport
           </h1>
-          <p>
-            adidas designs for athletes of all kinds. Creators who love to change the game. People who challenge conventions, break the rules, and define new ones. Then break them all over again. We design sports apparel that gets you moving, winning, and living life to the fullest. We create bras and tights for female athletes who play just as hard as the men. From low to high support. Maximum comfort. We design, innovate and iterate. We test new technologies in action. On the field, the track, the court, and in the pool. We’re inspired by retro workout clothes, creating new streetwear essentials. From NMD and Ozweego to our Firebird tracksuits. From Stan Smith to Superstar. Classic sports models are brought back to life on the streets and the stages around the world.
-          </p>
-          <p>
-            Through our collections we blur the borders between high fashion and high performance. Like our adidas by Stella McCartney athletic clothing collection – designed to look the part inside and outside of the gym. Or some of our adidas Originals lifestyle pieces, that can be worn as sports apparel too. Our lives are constantly changing. Becoming more and more versatile. And adidas designs with that in mind.
-          </p>
+          <div class="px-3">
+            <p>
+              adidas designs for athletes of all kinds. Creators who love to change the game. People who challenge conventions, break the rules, and define new ones. Then break them all over again. We design sports apparel that gets you moving, winning, and living life to the fullest. We create bras and tights for female athletes who play just as hard as the men. From low to high support. Maximum comfort. We design, innovate and iterate. We test new technologies in action. On the field, the track, the court, and in the pool. We’re inspired by retro workout clothes, creating new streetwear essentials. From NMD and Ozweego to our Firebird tracksuits. From Stan Smith to Superstar. Classic sports models are brought back to life on the streets and the stages around the world.
+            </p>
+            <p>
+              Through our collections we blur the borders between high fashion and high performance. Like our adidas by Stella McCartney athletic clothing collection – designed to look the part inside and outside of the gym. Or some of our adidas Originals lifestyle pieces, that can be worn as sports apparel too. Our lives are constantly changing. Becoming more and more versatile. And adidas designs with that in mind.
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="storefinder p-4">
-      <h1 class="text-center mb-4 mt-1">Storefinder</h1>
+      <h1 class="underline-animation text-center mb-4 mt-1">Storefinder</h1>
       <iframe
       width="100%"
       height="800px"
