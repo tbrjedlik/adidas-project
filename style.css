@@ -1,7 +1,10 @@
 body
 {
     overflow-x: hidden;
+    width: 100% !important;
 }
+
+
 
 /* NAVBAR */
 
@@ -58,10 +61,13 @@ nav
 
 .carousel-item
 {
-    height: 800px;
+    height: 800px !important;
 }
 
-
+#carouselIndex > .carousel-item
+{
+    height: 100px !important;
+}
 
 /* FONTS */
 
@@ -170,20 +176,17 @@ nav
 
 .adiclub
 {
-    height: 77px;
+    height: calc(2.5rem + 77px);
     background-color: rgb(255, 208, 0);
-    position: relative;
 }
 
 .adiclub p
 {
-    margin-top: 7px;
-    margin-left: auto;
-    margin-right: 10px;
+    margin: 0 auto;
     text-transform: uppercase;
     font-family: adidasBoldItalic, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 250%;
+    font-size: 2.5rem;
 }
 
 .index-text
