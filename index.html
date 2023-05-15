@@ -87,24 +87,6 @@
       Your browser does not support videos.
     </video>
 
-    <!-- Modal -->
-    <div class="modal fade" id="adiClubModal" tabindex="-1" aria-labelledby="adiClubModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="adiClubModalLabel"><span style="text-transform: lowercase;">adi<span class="adi-club">club</span></span> Registration</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            
-          </div>
-          <div class="modal-footer">
-            
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="index-text">
       <div class="container row mt-5 mx-auto">
         <div class="col-md-6">
@@ -159,6 +141,7 @@
               text-transform: uppercase;">
                 Your adiClub <br>benefits await
               </h1>
+              <h1 class="modal-title fs-5" id="adiClubModalLabelLabel"><span style="text-transform: lowercase;">adi<span class="adi-club">club</span></span> Registration</h1>
               <p>
                 Get free shipping, discount vouchers and members only products when you’re in adiClub.
               </p>
@@ -194,10 +177,35 @@
                 </p>
               </form>
 
-              <button type="button" class="button-27">Submit</button>
+
+              <button type="button" class="button-27" data-bs-toggle="modal" data-bs-target="#adiClubModalLabel">
+                Submit
+              </button>
     </div>
 
 
+
+ 
+
+    <div class="modal fade" id="adiClubModalLabel" tabindex="-1" aria-labelledby="adiClubModalLabelLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="adiClubModalLabelLabel"><span style="text-transform: lowercase;">adi<span class="adi-club">club</span></span> Registration</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h1 class="adidas-font" style=
+            "font-size: 50px;
+            text-transform: uppercase;">Thank you!</h1>
+            <p>We have successfully sent your data to our database.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="button-27" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer>
       <p>

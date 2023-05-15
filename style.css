@@ -252,7 +252,7 @@ footer
     transform-origin: bottom left;
   }
 
-  .modal-title#adiClubModalLabel
+  .modal-title
   {
     font-family: adidasBold, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
